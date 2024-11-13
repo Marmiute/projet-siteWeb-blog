@@ -1,0 +1,33 @@
+1. Cadre du projet
+
+    Objectifs : Protéger mon site web de toutes attaques et donc sécuriser mes données.
+    Technologies : Je pense construire mon site avec du HTML/CSS/JavaScript et peut-être le framework backend Node.js.
+
+2. Environnement de développement
+
+    Gestion des versions : Je n'arrive pas à utiliser git.
+    Sandbox pour la sécurité : Je pense utiliser mon vieil autre ordi portable ou un site en ligne.
+
+3. Structure de votre site
+
+    Authentification : Implémentez un système d’authentification sécurisé pour les utilisateurs du blog.
+    Base de données : Choisissez une base de données pour stocker les informations et appliquez des mesures de sécurité (chiffrement, protection contre les injections SQL).
+
+4. Appliquer des mesures de sécurité de base
+
+    HTTPS : Configurez SSL/TLS pour crypter les connexions entre le serveur et les utilisateurs.
+    Sécurité des formulaires : Protégez les formulaires (contre les injections SQL, XSS, CSRF).
+    Authentification renforcée : Implémentez des mots de passe sécurisés et des mécanismes de limitation de tentative de connexion.
+
+5. Tests de sécurité et audit
+
+    Tests de pénétration : Essayez des attaques courantes (XSS, CSRF, injections SQL) pour voir comment votre site y résiste.
+    Logs et surveillance : Ajoutez un système de logs et surveillez l’activité pour détecter les tentatives d’intrusion.
+    Outils : Utilisez des outils de sécurité (comme OWASP ZAP ou Burp Suite) pour détecter des vulnérabilités.
+
+6. Continuer l'apprentissage
+
+    Documentation : Documentez chaque étape de sécurité que vous avez appliquée.
+    Veille sécurité : Restez à jour sur les nouvelles vulnérabilités et les solutions.
+
+Cela vous donnera une base solide pour développer des compétences de sécurisation d'un site web.
