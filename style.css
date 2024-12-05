@@ -1,0 +1,202 @@
+/* Reset des marges et paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style global */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f6f9; /* Couleur de fond plus douce */
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+}
+
+/* Header */
+header {
+    background-color: #FF6347; /* Tomate */
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+    border-bottom: 5px solid #D35400; /* Bordure orange */
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2rem;
+    font-style: italic;
+    margin-top: 10px;
+}
+
+/* Navigation */
+nav {
+    background-color: #34495E;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 12px 20px;
+    font-size: 1.1rem;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #FF6347; /* Couleur tomate sur hover */
+    color: #fff;
+}
+
+/* Conteneur principal */
+.container {
+    padding: 30px 20px;
+}
+
+/* Sections */
+.section {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.section:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    color: #FF6347; /* Couleur tomate */
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+}
+
+/* Compétences */
+.skills, .ctf {
+    margin-bottom: 20px;
+}
+
+.skills h3, .ctf h3 {
+    color: #FF6347; /* Couleur tomate */
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+}
+
+.skills ul, .ctf ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.skills ul li, .ctf ul li {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
+
+.skills ul li::before, .ctf ul li::before {
+    content: "✔"; /* Cocher */
+    position: absolute;
+    left: 0;
+    color: #FF6347;
+}
+
+/* Liens dans la liste CTF */
+.ctf ul li a {
+    color: #34495E;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.ctf ul li a:hover {
+    color: #FF6347; /* Couleur tomate au survol */
+}
+
+/* Liste de compétences */
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ul li {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    position: relative;
+}
+
+/* Ajouter une icône avant chaque compétence */
+ul li::before {
+    content: "✔"; /* Cocher */
+    position: absolute;
+    left: 0;
+    color: #FF6347;
+}
+
+/* Liens dans la liste */
+ul li a {
+    color: #34495E;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+ul li a:hover {
+    color: #FF6347; /* Couleur tomate au survol */
+}
+
+/* Section contact */
+#contact p {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
+
+#contact a {
+    color: #FF6347;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+#contact a:hover {
+    color: #34495E; /* Retour à la couleur de la navigation au survol */
+}
+
+/* Footer */
+footer {
+    background-color: #34495E;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    border-top: 5px solid #FF6347; /* Bordure supérieure avec la couleur tomate */
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    header p {
+        font-size: 1rem;
+    }
+
+    nav a {
+        font-size: 1rem;
+        padding: 10px 15px;
+    }
+
+    .section {
+        padding: 15px;
+    }
+}
